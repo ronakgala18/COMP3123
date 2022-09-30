@@ -16,6 +16,7 @@ app.get("/user", (req, res) => {
     res.send(JSON.stringify(user))
 
 })
+  
 
 app.get("/user/:fnm/:lnm", (req, res) => {
     const s = req.params
