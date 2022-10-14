@@ -3,7 +3,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 const notesRoutes = require("./routes/NoteRoutes")
 
-const DB_URL = "mongodb+srv://101300174_Ronak:Greatnews_321@cluster0.18gn2vn.mongodb.net/F2022_Lab06?retryWrites=true&w=majority"
+const DB_URL = "mongodb+srv://101300174_Ronak:<pswd>@cluster0.18gn2vn.mongodb.net/F2022_Lab06?retryWrites=true&w=majority"
 const app = express();
 app.use(bodyParser.urlencoded({ extended: true }))
 app.use(bodyParser.json())
